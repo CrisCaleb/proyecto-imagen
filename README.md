@@ -4,5 +4,5 @@
 Proyecto de una imagen de Bolivia replicado con HTML y CSS.
 
 ## Enlace al Proyecto
-- **Repositorio**: [GitHub](https://github.com/tunombre/calculadora-basica)
+- **Repositorio**: [GitHub](https://github.com/CrisCaleb/proyecto-imagen)
 - **Imagen en HTML y CSS**: [Haz clic aquí](https://criscaleb.github.io/proyecto-imagen/)
