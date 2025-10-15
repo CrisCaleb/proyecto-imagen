@@ -1,0 +1,71 @@
+.cloudsContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40%; 
+    z-index: 2;
+    pointer-events: none; 
+}
+
+.cloud {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    animation-name: cloudMove;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.cloud__element {
+    background: whitesmoke;
+    position: relative;
+    border-radius: 50%;
+}
+
+.cloud__element__big_sphere {
+    width: 90px;
+    height: 90px;
+    box-shadow: 10px 3px 15px #d9f1ff inset;
+    margin-right: -30px;
+}
+
+.cloud__element__small_sphere {
+    width: 60px;
+    height: 60px;
+    margin-right: -20px;
+}
+
+.cloud__element__base_sphere {
+    width: 150px;
+    height: 60px;
+    border-radius: 100px;
+}
+
+.cloud--1 {
+    left: -200px;
+    top: 50px;
+    animation-duration: 80s;
+}
+
+.cloud--2 {
+    left: -400px;
+    top: 100px;
+    animation-duration: 120s;
+}
+
+
+@keyframes cloudMove {
+    to {
+        left: 100vw;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .cloud__element {
+        background: rgba(255, 255, 255, 0.7);
+    }
+    .cloud__element__big_sphere {
+        box-shadow: 10px 3px 15px rgba(255, 255, 255, 0.5) inset;
+    }
+}

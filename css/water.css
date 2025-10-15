@@ -1,0 +1,11 @@
+.water {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    width: 100%;
+    height: 60%;
+    background: linear-gradient(to bottom, #004d66, #001a26);
+    overflow: hidden;
+    z-index: 2;
+}
+
